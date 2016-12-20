@@ -1,6 +1,8 @@
 function factorialize(num){
   if(num === 0)
+  //base case - allows us to exit the loop if the requirements not met.
    return 1;
+   // recursive case using the function 
    return num * factorialize(num -1);
 }
 
